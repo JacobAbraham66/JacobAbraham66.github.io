@@ -30,7 +30,7 @@ body {
     margin: 0;
     display: flex;
     font-family: monospace;
-    font-size: large;
+    font-size: x-large;
 }
 
 .navbar-links li {
@@ -74,12 +74,12 @@ body {
     background-color: #fff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 40px;
-    font-size: large;
+    font-size: x-large;
 }
 
 .text-box h1 {
     text-align: center;
-    font-size: xxx-large;
+    font-size: xx-large;
     margin: 20px;
 }
 

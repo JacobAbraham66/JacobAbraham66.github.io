@@ -214,3 +214,64 @@ h2 {
         font-size: xx-large;
     }
 }
+/* Mobile adjustments for screens smaller than 768px */
+@media (max-width: 768px) {
+    
+    /* Navbar - Stack items vertically */
+    .navbar {
+        flex-direction: column;       /* Stack vertically */
+        padding: 10px;                /* Reduce padding for smaller screens */
+    }
+
+    .navbar-name {
+        font-size: large;             /* Adjust the font size */
+        margin-bottom: 10px;          /* Add space between logo and links */
+    }
+
+    .navbar-links {
+        flex-direction: column;       /* Stack links vertically */
+        text-align: center;           /* Center align the links */
+    }
+
+    .navbar-links li {
+        margin: 10px 0;               /* Space out the links */
+    }
+
+    /* Outer Container - Stack profile picture and text vertically */
+    .outer-container {
+        flex-direction: column;       /* Stack image and text vertically */
+        align-items: center;          /* Center the content */
+        width: 100%;                  /* Full width for mobile */
+    }
+
+    .profile-pic {
+        width: 100%;                  /* Set profile pictures to full width */
+        max-width: 300px;             /* Limit maximum size */
+        margin-bottom: 20px;          /* Add space below images */
+    }
+
+    .text-box {
+        width: 90%;                   /* Reduce width for smaller screens */
+        font-size: large;             /* Slightly smaller text for readability */
+    }
+
+    /* Contact Section - Stack logos vertically */
+    .contact-container {
+        flex-direction: column;       /* Stack contact boxes vertically */
+        align-items: center;          /* Center align the items */
+    }
+
+    .contact-box {
+        width: 80%;                   /* Set a more manageable width for smaller screens */
+        margin: 10px 0;               /* Space them out vertically */
+    }
+
+    /* Progress Bar - Stay consistent on mobile */
+    #progressBarContainer {
+        height: 4px;                  /* Slightly smaller height */
+    }
+
+    #progressBar {
+        background-color: #4caf50;    /* Maintain visibility */
+    }
+}
